@@ -10,7 +10,7 @@ import mysql from "../assets/img/skills/mysql.svg";
 import mongodb from "../assets/img/skills/mongodb.svg";
 import javascript from "../assets/img/skills/javascript.svg";
 import html from "../assets/img/skills/html-5.svg";
-import express from "../assets/img/skills/expressjs.svg";
+import express from "../assets/img/skills/expressjs2.png";
 import css from "../assets/img/skills/css.svg";
 import bootstrap from "../assets/img/skills/bootstrap.svg";
 import hardware from "../assets/img/skills/hardware.svg";
