@@ -46,9 +46,10 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                A Mern stack developer is expected to develop JavaScript
+                applications through the use of below skills. <br></br> I can
+                design multiple layers of applications when working
+                cross-functionally over various infrastructures.
               </p>
               <Carousel
                 responsive={responsive}
