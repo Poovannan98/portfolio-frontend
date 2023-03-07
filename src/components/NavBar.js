@@ -50,10 +50,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/poovannan-m-8b67b6115/"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/poovannan.jaga"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/poovannan098"><img src={navIcon3} alt="" /></a>
-                <a href="https://github.com/Poovannan98"><img src={GitHub} alt="" /></a>
+                <a href="https://www.linkedin.com/in/poovannan-m-8b67b6115/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/poovannan.jaga" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/poovannan098" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/Poovannan98" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="" /></a>
               </div>
                 <a href="http://bit.ly/3wep5Nc" target="_blank" rel="noopener noreferrer">
                   <button className="vvd" ><span>Resume</span></button>
