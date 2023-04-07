@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/Blog.png";
+import projImg2 from "../assets/img/Chat.png";
+import projImg3 from "../assets/img/EMS.png";
+import projImg4 from "../assets/img/ECOM.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,19 +12,36 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Blog App",
+      description: "Blog app using MERN Stack in CURD Operation and Multer for uploading images to DB.",
       imgUrl: projImg1,
+      live: "https://poo-blog.netlify.app",
+      frontend: "https://github.com/Poovannan98/blog-app-client",
+      backend: "https://github.com/Poovannan98/Blog-app-Server",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Chat App",
+      description: "Chat app using MERN Stack in Socket.io for receving and sending messages to user and user name and room id saved in the DB. ",
       imgUrl: projImg2,
+      live: "https://poo-chat.netlify.app",
+      frontend: "https://github.com/Poovannan98/Chat-app-client",
+      backend: "https://github.com/Poovannan98/Chat-app-Server",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Expense Management System",
+      description: "Expense Management System using MERN Stack in CURD Operation, for the user can see the income and expense of their statment in graphical and table view.",
       imgUrl: projImg3,
+      live: "https://poo-ems.netlify.app/login",
+      frontend: "https://github.com/Poovannan98/Expense-Management-system-client",
+      backend: "https://github.com/Poovannan98/Expense-Management-system-Server",
+    },
+    {
+      title : "E-Commerce APP",
+      description : "E-Commerce APP of CRM using MERN Stack in all CURD Operation and Multer for uploading images and Paypal for payment gateway via BrainTree in NodeJS. ",
+      imgUrl: projImg4,
+      live: "https://poo-e-com.netlify.app",
+      frontend: "https://github.com/Poovannan98/E-Commerce_client",
+      backend: "https://github.com/Poovannan98/E-Commerce_Server",
     }
   ];
 
@@ -83,7 +101,7 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
+                      {/* <Tab.Pane eventKey="section">
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Cumque quam, quod neque provident velit, rem
@@ -100,7 +118,7 @@ export const Projects = () => {
                           eligendi dicta officiis asperiores delectus quasi
                           inventore debitis quo.
                         </p>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>

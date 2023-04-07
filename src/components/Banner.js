@@ -84,12 +84,13 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    MERN stack is a collection of technologies that enables
-                    faster application development. It is used by developers
-                    worldwide. The main purpose of using MERN stack is to
-                    develop apps using JavaScript only. This is because the four
-                    technologies that make up the technology stack are all
-                    JS-based.
+                    A passionate Full stack developer with the goal of working
+                    on a project, that solves problems with thoughtful UI
+                    design, creating intuitive, dynamic user experiences powered
+                    by strong backend. I primarily work with MERN stack among
+                    the full stack technologies. I am fascinated by new
+                    technological innovations and research in the field. My
+                    skills developed and knowledge gained in problem solving.
                   </p>
 
                   <a href="#connect" className="none">

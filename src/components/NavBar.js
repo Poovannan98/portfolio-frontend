@@ -3,8 +3,8 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/poo.png';
 import GitHub from "../assets/img/github.svg";
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+// import navIcon2 from '../assets/img/nav-icon2.svg';
+// import navIcon3 from '../assets/img/nav-icon3.svg';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -47,12 +47,13 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#education" className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('education')}>Education</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/poovannan-m-8b67b6115/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/poovannan.jaga" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/poovannan098" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
+                {/* <a href="https://www.facebook.com/poovannan.jaga" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/poovannan098" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a> */}
                 <a href="https://github.com/Poovannan98" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="" /></a>
               </div>
                 <a href="http://bit.ly/3wep5Nc" target="_blank" rel="noopener noreferrer">
