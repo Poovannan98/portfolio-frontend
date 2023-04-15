@@ -56,7 +56,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/poovannan098" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a> */}
                 <a href="https://github.com/Poovannan98" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="" /></a>
               </div>
-                <a href="http://bit.ly/3KHvUPB" target="_blank" rel="noopener noreferrer">
+                <a href="https://bit.ly/4199axB" target="_blank" rel="noopener noreferrer">
                   <button className="vvd" ><span>Resume</span></button>
                 </a>
             </span>
