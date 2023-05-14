@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/Blog.png";
 import projImg2 from "../assets/img/Chat.png";
 import projImg3 from "../assets/img/EMS.png";
 import projImg4 from "../assets/img/ECOM.png";
+import projImg5 from "../assets/img/MJ.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -42,6 +43,14 @@ export const Projects = () => {
       live: "https://poo-e-com.netlify.app",
       frontend: "https://github.com/Poovannan98/E-Commerce_client",
       backend: "https://github.com/Poovannan98/E-Commerce_Server",
+    },
+    {
+      title : "MJ-Photography APP",
+      description : "MJ-Photography App is an Photography based landing page. This app is a bussiness based and advertisement purpose, I gifted this app to my lovable brother for improving her productivity and chances. ",
+      imgUrl: projImg5,
+      live: "https://mj-photo.netlify.app",
+      frontend: "https://github.com/Poovannan98/mj-photography",
+      backend: "https://github.com/Poovannan98/mj-photography-server",
     }
   ];
 
